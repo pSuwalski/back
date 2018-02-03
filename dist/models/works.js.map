@@ -1,0 +1,1 @@
+{"version":3,"file":"works.js","sourceRoot":"/Users/suwal/Coding/node/mwc-backend/src/","sources":["models/works.ts"],"names":[],"mappings":";;AAcA;IACE,MAAM,CAAC;QACL,eAAe,EAAE,IAAI;QACrB,YAAY,EAAE,IAAI;QAClB,cAAc,EAAE,IAAI;QACpB,IAAI,EAAE,IAAI;QACV,cAAc,EAAE,IAAI;QACpB,SAAS,EAAE,IAAI;QACf,EAAE,EAAE,IAAI;QACR,WAAW,EAAE,EAAE;KAChB,CAAC;AACJ,CAAC;AAXD,gCAWC"}

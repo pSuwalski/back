@@ -1,0 +1,87 @@
+schema {
+  query: Query
+  mutation: Mutation
+}
+
+# type JoinApplication {
+#   address: String
+#   city: String
+#   apartment: String
+#   floor: String
+#   name: String
+#   phone: String
+#   email: String
+#   addressType: String
+#   paymentType: String
+#   lat: Float
+#   lng: Float
+# }
+
+
+input InputAddress {
+  streetAndNumber: String!
+  apartment: String
+  city: String!
+  postCode: String
+}
+
+input InputUnion {
+  name: String!
+  nip: String!
+  email: String!
+  phone: String!
+  address: InputAddress!
+  companies: [InputCompany]!
+}
+
+input InputCompany {
+  name: String!
+  nip: String!
+  email: String!
+  phone: String!
+  address: InputAddress!
+  regon: String
+}
+
+input InputUser {
+  email: String!
+  name: String!
+  unionName: String!
+  unionId: String!
+  lastPayment: Int
+  phone: String
+}
+
+input InputStampAuth {
+  name: String!
+  surname: String!
+  position: String!
+}
+
+
+# input InputJoinApplication {
+#   user: InputUser!
+#   password: String!
+#   company: InputCompany!
+# }
+
+
+type Query {
+  name: String
+}
+
+type Mutation {
+  acceptJoinApplication(unionId: String!): String
+  addResolution(unionId: String!, resolutionId: String!): String
+  addWorksDone(unionId: String!, worksDoneId: String!): String
+  applyJoinApplication(user: InputUser!, union: InputUnion!, password: String!): String
+  declineJoinApplication(unionId: String!): String
+  generateAuthPaper(unionId: String!, authName: String!, authAddress: String!, authPesel: String!, authedPesel: String!, ownerId: String!, authedName: String!, authedSurname: String!): String
+  generateNoticePaper(unionId: String!, ownerId: String!, status: String!, resolutionId: String!, stampAuth: InputStampAuth, accountName: String!, address: String!, bankAccount: String!, title: String!): String
+  generateCallPaper(unionId: String!, ownerId: String!, companyId: String!, cashAddress: String!, bankName: String!, bankAccount: String!, contactPhone: String!, contactEmail: String!, stampAuth: InputStampAuth!, status: String): String
+  generatePaymentPaper(unionId: String!, ownerId: String!, unionBankAccount: String!, amount: String!, payersBankAccount: String!, payerName: String!, title: String!): String
+  removeParcel(unionId: String!, parcelId: String!): String
+  removeWorksDone(unionId: String!, worksDoneId: String!): String
+  sendMail(email: String!): String
+}
+

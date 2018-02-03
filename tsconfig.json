@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "noLib": false,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "outDir": "./dist",
+        "sourceRoot": "./src",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noUnusedLocals": true
+    },
+    // "filesGlob": [
+    //     ".**/*.ts"
+    // ],
+    "exclude": [
+        "node_modules"
+    ]
+}

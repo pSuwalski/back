@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/93bae1bb4c887c1375a4c1f0c3bb849ff06b8ac6/moment-timezone/moment-timezone.d.ts",
+    "raw": "github:DefinitelyTyped/DefinitelyTyped/moment-timezone/moment-timezone.d.ts#93bae1bb4c887c1375a4c1f0c3bb849ff06b8ac6",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/93bae1bb4c887c1375a4c1f0c3bb849ff06b8ac6/moment-timezone/moment-timezone.d.ts"
+  }
+}

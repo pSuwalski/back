@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/70bf7e2bfeb0d5b1b651ef3219bcc65c8eec117e/form-data/form-data.d.ts",
+    "raw": "github:DefinitelyTyped/DefinitelyTyped/form-data/form-data.d.ts#70bf7e2bfeb0d5b1b651ef3219bcc65c8eec117e",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/70bf7e2bfeb0d5b1b651ef3219bcc65c8eec117e/form-data/form-data.d.ts"
+  }
+}

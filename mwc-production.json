@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "melior-wc",
+  "private_key_id": "7a3f7568d251f6abae926d0fe08d454d2267d757",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEugIBADANBgkqhkiG9w0BAQEFAASCBKQwggSgAgEAAoIBAQCerRBN1BBljNEb\nK86e4G5YdGu37YAJXXx0RFMjvUJ1J8dZnf9INzepPI3H8S4cOBF9IUx62d5vebc7\noIpuR6p6f9OXPNB//ao701x4tPCzf1nOIxNLKxnutSTI3LDUL0Mb5u9Go1HtSV5m\nwoOR/PaDKVlD0D2r7uP0s33d6y2RjQqoabgvVw2FuwXSnAjpLRMR0ttHZswDZzDS\ncepdQFVsj5CJ6//B/ARR4cHbxfZ2nyDKeJzf8sTm95CZ5PTJl89fOcQqFwaVttup\nADeO1uW/vpmkjExZOPXRcJNWV9W1f6lN/EtptqmRZ50a/bhPROAMaXyh2wJq4FAK\n8/OuxkAZAgMBAAECggEACezil5h+2Hgaq5I6hj7QCC5rTBtjpkvq7GbkGgwAa5pr\n/AbhbTku/SILIe+Yv8eHqIXif88mL8Wzfw8hIABrNIBpOHOWyZRd1DvGjZjCQA5+\nP2IVFqwA69wrpRJqgstC0/lgP2qyrDh22pyq/pqN9oRdAtxN9akN9aq1Yjupidbp\nN+gUDCSy3531j9e/o0D/4CtbiikKCEyJ4eSEbmJqkRq6oLNqvsQAMAPKmFfpkcLm\nTRXkf9fVSy0pLPPPUn/rkkQqB9Q1F7SaCHfuTuO7l/+d/UiTOB5Uq3jHzxh2IG+X\nq0g8QVZVTSp1KQHesiLoxbupCqUXOF595Ym6VzLUZQKBgQDYztuYhdCIg6akUYxo\n1fLa5Q6P0RzSTG6IviuelyfOzmJwK2v7jqDLz2lH5uroZl46X7LRA5aEEIrtyOMe\ni/F5AV5QITammPSk6tMQ7ttfnht/U1qJpyXS99V52A+449vEIIQwUKB8VSi668KO\nXd7dFbC8pot8M50upirn7MyXVwKBgQC7XA2lTMfjpbd7+2cPaFRW84ZTr3SQx9vu\nezbTetSPcMU97iP6OPR/FmySujwxN5qiWXmSsyLkcE5Do2vBvQ3I2PJUBjBWpolt\nZKP0Jy4jpHcgp9ZRSK2IoLzHcbNCfnoPlnaGCTNWa4JLcWydyK6VAJyGYqqlAvYN\nhVTv+Q5uDwKBgD2ieO0gRYs5mfsmr7rx76to6L3b3cyvK9E19uKL6CYzp+ppfbYy\n8uVd3nkxXWCaEXmY0RX4Zia/KS+2J1L8x7X1vKEdABNWcl4b38r1jGnfYcPNp3Rw\njyEtkYOk97tBE63q7IlrsmQGNaEF+vZMG1pQm0DWO9sgNTQYyyPJvtPbAoGARwTr\nvz7NfkMwu/Rd6n83iQYiYtJdMwwvF8To0Vz7+atbeNAuHwk71HihizTA4D8dhHC6\nHpt8nG7dm9H0ZKnO8dUadjMqW44hBbBiXYgEe0o6RcyY9pLABMw5ArjcpFXg2svD\n/aa7KQTzjLlf3KdXVe+3ZVE9MfNfZVynB5e2mo0Cfzln180CAijndnlFetGqOgTT\nPoAp08lIp0PJJScmNGHnMQUIFJRGamaW43LTWzNAoCDnZ+PMZGL15aIqZkL+dWrk\n3QP8q9HAcqUc1h4rlRCZO2YKqJRLqZjLXWinXprMdhfwoas5/4OyagIaKrMt/GIU\nWX8+0afgmy9jmsrfv+I=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-5lpij@melior-wc.iam.gserviceaccount.com",
+  "client_id": "113965594248160629142",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-5lpij%40melior-wc.iam.gserviceaccount.com",
+  "storageBucket": "melior-wc.appspot.com"
+}

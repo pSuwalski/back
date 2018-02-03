@@ -1,0 +1,25 @@
+{
+  "name": "lunch24-worker",
+  "globalDependencies": {
+    "cookies": "registry:dt/cookies#0.5.1+20160316171810",
+    "express": "registry:dt/express#4.0.0+20160708185218",
+    "express-serve-static-core": "registry:dt/express-serve-static-core#4.0.0+20160715232503",
+    "form-data": "github:DefinitelyTyped/DefinitelyTyped/form-data/form-data.d.ts#70bf7e2bfeb0d5b1b651ef3219bcc65c8eec117e",
+    "hapi": "registry:dt/hapi#13.0.0+20160803202811",
+    "koa": "registry:dt/koa#2.0.0+20160724024233",
+    "mime": "registry:dt/mime#0.0.0+20160316155526",
+    "mocha": "registry:dt/mocha#2.2.5+20160720003353",
+    "moment": "github:DefinitelyTyped/DefinitelyTyped/moment/moment.d.ts#93bae1bb4c887c1375a4c1f0c3bb849ff06b8ac6",
+    "moment-node": "github:DefinitelyTyped/DefinitelyTyped/moment/moment-node.d.ts#93bae1bb4c887c1375a4c1f0c3bb849ff06b8ac6",
+    "moment-timezone": "github:DefinitelyTyped/DefinitelyTyped/moment-timezone/moment-timezone.d.ts#93bae1bb4c887c1375a4c1f0c3bb849ff06b8ac6",
+    "serve-static": "registry:dt/serve-static#0.0.0+20160606155157",
+    "should": "registry:dt/should#8.1.1+20160608082854"
+  },
+  "dependencies": {
+    "jsonwebtoken": "registry:npm/jsonwebtoken#5.5.4+20160208220328",
+    "lodash": "registry:npm/lodash#4.0.0+20160723033700",
+    "node-uuid": "registry:npm/node-uuid#1.4.7+20160723033700",
+    "redis": "registry:npm/redis#0.12.1+20160729031738",
+    "sequelize": "registry:npm/sequelize#4.0.0-1+20161101121248"
+  }
+}
